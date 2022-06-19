@@ -1,7 +1,7 @@
 {
   "name": "tailwind-gutenberg-components",
   "description": "Tailwind components and utilities for classes provided by the WordPress Guteneberg editor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Hatfim Ydniw",
   "bugs": {
     "url": "https://github.com/hatfim/tailwind-gutenberg-components/issues"
