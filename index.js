@@ -6,7 +6,7 @@ module.exports = {
   /**
    * Default config
    */
-  defaultConfig: require('./src/default-config'),
+  defaultConfig: require('./plugins/default-config'),
 
   /**
    * Block contents
@@ -16,7 +16,7 @@ module.exports = {
    *  - rowGap
    *  - screens
    */
-  blockContent: require('./src/block-content'),
+  blockContent: require('./plugins/block-content'),
 
   /**
    * Typographic settings
@@ -26,7 +26,7 @@ module.exports = {
    *  - fontSizes
    *  - fontSizes.generated
    */
-  typography: require('./src/typography'),
+  typography: require('./plugins/typography'),
 
   /**
    * Base color settings
@@ -34,7 +34,7 @@ module.exports = {
    * Required config keys:
    *  - gutenberg.colors
    */
-  colors: require('./src/colors'),
+  colors: require('./plugins/colors'),
 
   /**
    * core/embed
@@ -42,43 +42,43 @@ module.exports = {
    * Required config keys:
    *  - @todo
    */
-  aspectRatios: require('./src/aspect-ratios'),
+  aspectRatios: require('./plugins/aspect-ratios'),
 
   /**
    * core/group
    * core/columns
    * core/column
    */
-  columns: require('./src/columns'),
-  group: require('./src/group'),
+  columns: require('./plugins/columns'),
+  group: require('./plugins/group'),
 
   /**
    * Figcaptions
    */
-  figcaption: require('./src/figcaption'),
+  figcaption: require('./plugins/figcaption'),
 
   /**
    * core/embed
    */
-  blockEmbed: require('./src/block-embed'),
+  blockEmbed: require('./plugins/block-embed'),
 
   /**
    * core/image
    */
-  image: require('./src/block-image'),
+  image: require('./plugins/block-image'),
 
   /**
    * core/video
    */
-  video: require('./src/block-video'),
+  video: require('./plugins/block-video'),
 
   /**
    * core/cover
    */
-  cover: require('./src/block-cover'),
+  cover: require('./plugins/block-cover'),
 
   /**
    * core/table
    */
-  table: require('./src/block-table'),
+  table: require('./plugins/block-table'),
 }
